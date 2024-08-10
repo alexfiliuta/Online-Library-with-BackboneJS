@@ -4,7 +4,7 @@ body, *, *:before, *:after {
 
 body {
     background-color: #e5e5e5;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     line-height: 1.5em;
 }
@@ -57,10 +57,6 @@ small {
 .l-column {
     display: table-cell;
     vertical-align: top;
-}
-
-.is-visible {
-    display: block;
 }
 
 .cf {
@@ -136,11 +132,11 @@ small {
     margin: 0.5em 0.2em;
 }
 
-    .thum-link {
+    .thumb-link {
         display: block;
         position: relative;
     }
-    .thum-link:hover > .overlay {
+    .thumb-link:hover > .overlay {
         display: block;
     }
 
@@ -161,4 +157,8 @@ small {
 
 .thumb-image {
     width: 220px;
+}
+
+.is-visible {
+    display: block;
 }
